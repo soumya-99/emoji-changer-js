@@ -32,6 +32,6 @@ const emojis = [
   "🤪",
 ];
 
-btn.addEventListener("mouseenter", () => {
+btn.addEventListener("mousemove", () => {
   btn.innerText = emojis[Math.floor(Math.random() * emojis.length)];
 });
